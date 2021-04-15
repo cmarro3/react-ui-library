@@ -71,7 +71,7 @@ export default {
 } as Meta;
 
 export const ListHeaderWithSearchBar: Story<ListHeaderProps> = (args) => (
-    <div style={{width: '255px'}}>
+    <div style={{ width: '255px' }}>
         <ListHeader {...args} />
     </div>
 );
